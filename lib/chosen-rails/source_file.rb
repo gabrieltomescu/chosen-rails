@@ -12,7 +12,7 @@ class SourceFile < Thor
     get "#{remote}/raw/#{branch}/sass/chosen.scss", 'stylesheets/chosen.css.scss'
     get "#{remote}/raw/#{branch}/coffee/lib/abstract-chosen.coffee", 'javascripts/lib/abstract-chosen.coffee'
     get "#{remote}/raw/#{branch}/coffee/lib/select-parser.coffee", 'javascripts/lib/select-parser.coffee'
-    get "https://raw.github.com/harvesthq/chosen/master/coffee/chosen.jquery.coffee", 'javascripts/chosen.jquery.coffee'
+    get "https://raw.github.com/funflin/chosen/master/coffee/chosen.jquery.coffee", 'javascripts/chosen.jquery.coffee'
     get "#{remote}/raw/#{branch}/coffee/chosen.proto.coffee", 'javascripts/chosen.proto.coffee'
     get "#{remote}/raw/#{branch}/package.json", 'package.json'
     bump_version
